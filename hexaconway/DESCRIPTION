@@ -1,0 +1,21 @@
+Package: hexaconway
+Version: 0.0.0.9000
+Date: 2017-07-02
+Title: Playing Conway's Game of Life on a Hexagonal Grid
+Authors@R: c(person("Josephine", "Vibrans", role = c("aut", "cre"), email = "josephine.vibrans@uni-jena.de"),
+              person("Imke", "Voss", role = c("aut", "cre"), email = "imke.voss@uni-jena.de"),
+              person("Julie", "Toussaint", role = c("aut", "cre"), email = "julie.toussaint@uni-jena.de"))
+Author: Josephine Vibrans [aut, cre],
+  Imke Voß [aut, cre],
+  Julie Toussaint [aut, cre]
+Maintainer: Josephine Vibrans <josephine.vibrans@uni-jena.de>
+Depends: R (>= 3.3.3)
+Imports: hexbin (>= 1.27.1),
+    network (>= 1.13.0),
+    plotrix (>= 3.6-5),
+    reshape2 (>= 1.4.2)
+Description: HexaNetworkConway initiates a network object to represent Conway's hexagonal Universe. The starting pattern can either be randomly generated or choosen by yourself. Currently 7 different rulesets are implemented to compute the state of the next generation from a Newman's Neighbourhood. (Rulesets computing the next generation's state from a Moore-Neighbourhood are planned.) Finally, the graphics are displayed on a hexagonal grid.
+License: MIT
+RoxygenNote: 6.0.1
+Encoding: UTF-8
+LazyData: true
